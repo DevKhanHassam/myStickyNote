@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header"><i class="fa-regular fa-note-sticky fa-3x" style="color: #000000;"></i> My NOTE</div>
+    
+    
+    <div id="addNoteParent">
+        <div>
+            <button id="addNoteButton">ADD NOTE +</button>
+        
+        
+        </div>
+    </div>
+
+
+
+</body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+
+
+<style>
+
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color:white;
+        
+    }
+    #header{
+        background-color: rgba(255, 218, 11,1);
+        padding-left: 10px;
+
+    }
+
+    #addNoteParent {
+        padding-top: 20px;
+        display: flex;
+       align-items: flex-end;
+       justify-content: flex-end;
+       padding-left: 10px;
+       
+    }
+
+    #addNoteButton {
+       
+        background-color: rgb(247, 86, 86);
+        padding: 5px;
+        color: white;
+        cursor: pointer;
+        position: fixed;
+        right: 15px;  
+        z-index: 999;
+        
+    
+    }
+
+    #addNoteButton:hover{
+
+        transform: scale(1.1);
+    }
+
+    #addNoteButton:active{
+        color: rgb(255, 236, 61);
+    }
+
+    #note{
+
+        background-color: rgba(255, 204, 39, 0.342);
+        margin: 30px 20px;
+        height: 200px;
+        width: 400px;
+        /* overflow-y: scroll; */
+        margin-top: 7rem;
+        box-shadow: inset 2px 2px  rgba(150, 89, 89, 0.158);
+        display: inline-block;
+       
+
+    }
+
+     #operation{
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.5rem;
+        background-color: rgba(255, 218, 11, 0.836);
+    }
+
+    .main{
+        display: flex;
+        background-color: rgba(255, 218, 11,0.836);
+        height: 160px;}
+
+    #textbox{
+        width: 400px;
+        background-color: blanchedalmond;
+        resize: none;
+    }
+        
+
+    .hidden{
+
+        display: none;
+    }
+
+
+    .test{
+        pointer-events: none;
+    }
+
+       
+
+    
+
+</style>
+<script src="index.js"></script>
+</html>
+
+
+
